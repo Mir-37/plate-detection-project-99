@@ -1,7 +1,7 @@
 
   # UI Development for Forensic System
 
-  This is a code bundle for UI Development for Forensic System. The original project is available at https://www.figma.com/design/EhtuKRTYRAZlgCkd1jeSod/UI-Development-for-Forensic-System.
+  This is a code bundle for UI Development for Forensic System. 
 
   ## Running the code
 
