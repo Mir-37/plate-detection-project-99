@@ -252,7 +252,6 @@ export default function App() {
         {mode === 'training' && (
           <div className="max-w-6xl mx-auto">
             <TrainingPanel />
-            <TrainingPanel />
             <DatasetGenerator isWorkspaceReady={isWorkspaceReady} />
           </div>
         )}
