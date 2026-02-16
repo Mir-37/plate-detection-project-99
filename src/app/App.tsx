@@ -250,9 +250,12 @@ export default function App() {
         )}
 
         {mode === 'training' && (
-          <div className="max-w-6xl mx-auto">
-            <TrainingPanel />
-            <DatasetGenerator isWorkspaceReady={isWorkspaceReady} />
+          <div className="max-w-6xl mx-auto mt-12">
+            <DatasetGenerator isWorkspaceReady={isWorkspaceReady}  />
+            <br />
+            <div className="mt-12">
+              <TrainingPanel/>
+            </div>
           </div>
         )}
       </main>
